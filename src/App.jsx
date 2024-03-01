@@ -151,7 +151,7 @@ function App() {
       <h1 className='bg-gradient-to-r from-green-100 to-emerald-900 text-transparent bg-clip-text flex mt-5 justify-center'>
         Spotify
         <h1 className='text-white font-thin ml-2 '>Slim</h1>
-        <img src="/src/assets/Spotify.png" className='bg-black h-12 mt-5 ml-5' alt='logo' />
+        <img src="/assets/Spotify.png" className='bg-black h-12 mt-5 ml-5' alt='logo' />
       </h1>
       <Container className=''>
         <InputGroup className='mb-3 scale-90  mt-5 w-120' size="lg">
@@ -249,7 +249,7 @@ function App() {
           <p className='text-white flex mt-10 font-bold justify-center text-6xl'>Favorite Albums</p>
           <Row className=' mb-20 sm:text-sm flex- justify-center row row-cols-5'>
             <Card className='hover:border-green-600 mx-4 mb-4 mt-4 transition duration-200 hover:scale-95 border-2 px-2'>
-              <Card.Img className='rounded-lg mt-2' src="/src/assets/d'anglo.jpg" alt="Frank Ocean Album" />
+              <Card.Img className='rounded-lg mt-2' src="/assets/d'anglo.jpg" alt="Frank Ocean Album" />
               <CardBody>
                 <Card.Title className='font-semibold '>D'Angelo</Card.Title>
                 <Card.Text className='text-xl text-slate-600'>Voodoo</Card.Text>
@@ -258,7 +258,7 @@ function App() {
             </Card>
             {/* Yves Tumor */}
             <Card className='hover:border-green-600 mx-4 mb-4 mt-4 transition duration-200 hover:scale-95 border-4  mx-2 px-2' >
-              <Card.Img className='mt-2' src="/src/assets/yves.webp" alt="Yves Tumor Album" />
+              <Card.Img className='mt-2' src="/assets/yves.webp" alt="Yves Tumor Album" />
               <CardBody>
                 <Card.Title className='font-semibold'>Yves Tumor </Card.Title>
                 <Card.Text className='text-xl text-slate-600'>Htatm</Card.Text>
@@ -266,7 +266,7 @@ function App() {
               </CardBody>
             </Card>
             <Card className='hover:border-green-600 mx-4 mb-4 mt-4 transition duration-200  hover:scale-95 border-2 px-2'>
-            <Card.Img className='rounded-lg mt-2' src="/src/assets/blonde.jpg" alt="Frank Ocean Album" />
+            <Card.Img className='rounded-lg mt-2' src="/assets/blonde.jpg" alt="Frank Ocean Album" />
             <CardBody>
               <Card.Title className='font-semibold '>Frank Ocean</Card.Title>
               <Card.Text className='text-xl text-slate-600'>Blonde</Card.Text>
@@ -274,7 +274,7 @@ function App() {
             </CardBody>
           </Card>
             <Card className='hover:border-green-600 mx-4 mb-4 mt-4  transition duration-200  hover:scale-95 border-2 px-2'>
-              <Card.Img className='rounded-lg mt-2' src="/src/assets/kennybeats.webp" alt="Frank Ocean Album" />
+              <Card.Img className='rounded-lg mt-2' src="/assets/kennybeats.webp" alt="Frank Ocean Album" />
               <CardBody>
                 <Card.Title className='font-semibold '>Kenny Beats</Card.Title>
                 <Card.Text className='text-xl text-slate-600'>Louie</Card.Text>
