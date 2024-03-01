@@ -16,6 +16,7 @@ import {
 const CLIENT_ID = 'd9fd3a49aaee466da41d4a9e1368f98c';
 const CLIENT_SECRET = '162d8c66e5824e179bfcb9d19fde17c0';
 
+
 function AlbumTracksModal({ show, onHide, albumId, accessToken }) {
   const [tracks, setTracks] = useState([]);
   AOS.init();
